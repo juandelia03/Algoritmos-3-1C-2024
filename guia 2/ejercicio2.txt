@@ -1,0 +1,7 @@
+caso base Ø(1)
+caso recursivo T(n) = 1.T(n/2) + Ø(1)
+Por teorema maestro:
+a=1 b=2 c=0
+log en base 2 de 1 = 0
+c = 0
+-> Ø(n^0 .log n) = Ø(log n)
