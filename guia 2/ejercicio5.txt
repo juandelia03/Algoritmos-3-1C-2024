@@ -1,0 +1,8 @@
+caso base es Ø(1)
+asumamos que potencia es Ø(cte) xq todas las matrices son 4x4
+caso recursivo : T(n) = T(n/2) + Ø(1)
+por teorema maestro:
+a=1, b=2, c=0
+log en base 2 de 1 = 0
+c=0
+-> Ø(n^0.logn) = Ø(logn)

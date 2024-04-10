@@ -1,0 +1,7 @@
+Ø lease tetha
+caso base : Ø(1)
+caso recursivo: T(n) = 2T(n/2) + Ø(n)
+lo primero xq cada vez genero 2 subinstancias de tamaño n/2
+y el + n  porque para hacer las sumas recorro los n elementos del array
+Por teoreama maestro 
+((log en base b de a == c == 1)) -> T(n) = Ø(n.log n)

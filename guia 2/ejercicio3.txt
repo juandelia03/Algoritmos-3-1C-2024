@@ -1,0 +1,6 @@
+por teorema maestro:
+a = 1, b=2, c=0
+
+log en base 2 de 1 = 0
+c = 0
+-> T(n) = Ø(n^0 . log n) = Ø(log n)
