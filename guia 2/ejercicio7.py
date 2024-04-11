@@ -43,4 +43,9 @@ def DesordenSort(arr):
     mergeSort(arr)
     return counter
 
+
+#La complejidad es C.B: Ø(1) C.R: T(n) = 2T(n/2) + n (el n por el merge)
+#Por Teorema maestro -> a=2 b=2 c=1 log en base b de a = 1 = c -> T(n) = Ø(nlog n) 
 print(DesordenSort([12, 11, 13, 5, 6, 7]))
+
+
